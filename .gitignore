@@ -1,0 +1,5 @@
+node_modules
+.env
+starboard.sqlite
+starboard.sqlite-shm
+starboard.sqlite-wal

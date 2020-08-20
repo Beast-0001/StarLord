@@ -1,0 +1,15 @@
+{
+   "name": "starlord",
+   "version": "1.2.7",
+   "description": "starboard bot",
+   "main": "index.js",
+   "author": "thebeastatfnbr and jecta",
+   "license": "ISC",
+   "dependencies": {
+      "better-sqlite3": "^7.1.0",
+      "discord.js": "^12.3.1",
+      "dotenv": "^8.2.0",
+      "moment": "^2.27.0",
+      "ms": "^2.1.2"
+   }
+}
