@@ -8,7 +8,7 @@ const client = new Discord.Client({
     partials: ["REACTION", "MESSAGE", "USER"]
 });
 
-const prefix = 'sr!';
+const prefix = 'sr!'; //Change this to your likings
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
@@ -106,7 +106,7 @@ client.on('messageReactionAdd', async (reaction, user) => {
     if (message.author.bot) return;
     let sch = client.getsch.get(message.guild.id);
     if (!sch) return;
-    if (!message.guild.channels.cache.get(sch.sch)) returnl
+    if (!message.guild.channels.cache.get(sch.sch)) return;
     if (reaction.emoji.name == '⭐') {
         if (client.msgsent.get(message.id)) {
             let msg = await message.guild.channels.cache.get(sch.sch).messages.fetch({
