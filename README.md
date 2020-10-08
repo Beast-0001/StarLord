@@ -1,5 +1,5 @@
 # StarLord
-An uncontinued starboard bot called starload
+An uncontinued starboard bot called starlord
 
 ### About Starload
 Starload was a bot in 70 servers when I decided to shut down because of my new bot, Arrow https://arrowbot.xyz
